@@ -1,3 +1,27 @@
+body {
+  font-family: sans-serif;
+  background-color: #e8e8e8;
+}
+
+header {
+  display: block;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #00334e;
+}
+
+h1 {
+    margin: 0 0 0 0;
+}
+
+.selection {
+  margin: 0 10px 0 10px;
+  background-color: #5588a3;
+  border-radius: 4px;
+  padding: 10px 24px;
+  font-size: 20px;
+  color: #e8e8e8;
+}
 
 #grid {
   width: 500px;
@@ -7,6 +31,8 @@
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cell {
